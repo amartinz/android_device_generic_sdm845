@@ -22,7 +22,7 @@ PRODUCT_COPY_FILES := \
     device/generic/sdm845/common.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/beryllium.kl
 
 # Build generic Audio HAL
-PRODUCT_PACKAGES := audio.primary.beryllium
+PRODUCT_PACKAGES += audio.primary.beryllium
 
 # Build generic lights HAL
 PRODUCT_PACKAGES += lights.beryllium

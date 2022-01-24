@@ -22,7 +22,7 @@ PRODUCT_COPY_FILES := \
     device/generic/sdm845/common.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/enchilada.kl
 
 # Build generic Audio HAL
-PRODUCT_PACKAGES := audio.primary.enchilada
+PRODUCT_PACKAGES += audio.primary.enchilada
 
 # Build generic lights HAL
 PRODUCT_PACKAGES += lights.enchilada
